@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+       android:id="@+id/keseluruhan"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical"
+    	android:layout_weight="1">
+    	
+		<ScrollView 
+   		android:layout_width="match_parent"
+   		android:layout_height="match_parent">
+   		
+   <LinearLayout 
+       android:id="@+id/isiScrollView"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical"
+    	>
+    	
+       <LinearLayout 
+        android:id="@+id/judul"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical"
+    	android:padding="10dp"
+    	android:background="#ffffff"
+    	android:layout_weight="3">
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:padding="15dip"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        android:text="Daftar Menu Minuman"/>
+    
+    </LinearLayout>
+    
+       <LinearLayout 
+        android:id="@+id/minuman"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical"
+    	android:padding="10dp"
+    	android:background="#ffffff"
+    	android:layout_weight="2">
+    
+           <TableLayout 
+       android:id="@+id/tableLayout1"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"  
+    android:stretchColumns="*">
+          <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+  
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Air Mineral"
+        android:textStyle="bold"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+         android:paddingLeft="10dp"
+          android:text="Rp. 3.000,-" />
+
+      </TableRow>
+      
+      
+       <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+     
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Es Teh Manis"
+        android:textStyle="bold"/>
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:paddingLeft="10dp"
+        android:text="Rp. 3.000,-"/>
+      </TableRow>
+      
+      <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+     
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Teh Tawar"
+        android:textStyle="bold"/>
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:paddingLeft="10dp"
+        android:text="Rp. 2.000,-"/>
+      </TableRow>
+      
+      
+       <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Lemon Tea"
+        android:textStyle="bold"/>
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:paddingLeft="10dp"
+        android:text="Rp. 3.500,-"/>
+      </TableRow>
+      
+       <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Es Cappucino"
+        android:textStyle="bold"/>
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:paddingLeft="10dp"
+        android:text="Rp. 4.000,-"/>
+      </TableRow>
+      
+         <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Jus Alpukat"
+        android:textStyle="bold"/>
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:paddingLeft="10dp"
+        android:text="Rp. 7.000,-"/>
+      </TableRow>
+      
+        
+       <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+     
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Jus Strawberry"
+        android:textStyle="bold"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+         android:paddingLeft="10dp"
+          android:text="Rp. 8.000,-" />
+
+      </TableRow>
+      
+      
+      <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+     
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Jus Jeruk"
+        android:textStyle="bold"/>
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="Rp. 7.000,-"/>
+      </TableRow>
+      
+       <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+     
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Es Jeruk"
+        android:textStyle="bold"/>
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:paddingLeft="10dp"
+        android:text="Rp. 5.000,-"/>
+      </TableRow>
+      
+      
+       <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Coffe Hitam"
+        android:textStyle="bold"/>
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="Rp. 3.000,-"/>
+      </TableRow>
+      
+        <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Milo"
+        android:textStyle="bold"/>
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="Rp. 5.000,-"/>
+      </TableRow>
+      </TableLayout>
+      
+       
+ 
+      
+       </LinearLayout>
+
+     </LinearLayout>
+</ScrollView>
+</LinearLayout>
+    
+
+</LinearLayout>

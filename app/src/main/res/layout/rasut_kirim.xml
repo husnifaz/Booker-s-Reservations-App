@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:padding="15sp"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:text="ORDER PESANAN"/>
+
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Kirim Ke : Rasa Utama"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#9fa7a7" />
+
+        <TextView
+            android:id="@+id/phoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:visibility="gone"
+            android:text="081291305333"/>
+
+        <View
+            android:layout_width="190dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:background="#000"
+            android:layout_marginBottom="30dp"/>
+
+        <EditText
+            android:id="@+id/smsBody"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:maxLines="4"
+            android:gravity="left"
+            android:singleLine="false"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/colorPrimary"
+            android:textColor="@color/colorPrimary"
+            android:hint="Pesan teks ..." />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnKembali"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingRight="10dp"
+                android:text="  BACK"
+                android:layout_marginRight="50dp"
+                android:textColor="#fff"
+                android:background="@color/colorPrimaryDark"/>
+
+            <Button
+                android:id="@+id/smsSIntent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimaryDark"
+                android:text="  SEND"
+                android:textColor="#fff"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

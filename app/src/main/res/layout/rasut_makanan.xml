@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+    
+   <LinearLayout 
+       android:id="@+id/keseluruhan"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical"
+    	android:layout_weight="1">
+    	
+		<ScrollView 
+   		android:layout_width="match_parent"
+   		android:layout_height="match_parent">
+   		
+   <LinearLayout 
+       android:id="@+id/isiScrollView"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical"
+    	>
+    	
+       <LinearLayout 
+        android:id="@+id/judul"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical"
+    	android:padding="10dp"
+    	android:background="#ffffff"
+    	android:layout_weight="3">
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:padding="15dip"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        android:text="Daftar Menu Makanan"/>
+    
+    </LinearLayout>
+    
+       
+      <LinearLayout 
+        android:id="@+id/makanan"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical"
+    	android:padding="10dp"
+    	android:background="#ffffff"
+    	android:layout_weight="2">
+    
+
+     <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:gravity="center"
+        android:text="Nasi Goreng "
+        android:background="#CAC8F7"
+        android:textStyle="bold"/>
+          
+          
+   <TableLayout 
+       android:id="@+id/tableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"  
+    android:padding="10dp"
+    android:stretchColumns="*">
+          <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+     
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Nasi Goreng Biasa"
+        android:textStyle="bold"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingLeft="10dp"
+           android:gravity="right"
+          android:text="Rp. 10.000,-" />
+      </TableRow>
+   	      
+      
+      <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+     
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Nasi Goreng Sosis"
+        android:textStyle="bold"/>
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+         android:paddingLeft="10dp"
+        android:text="Rp. 12.000,-"/>
+     </TableRow>
+      
+      <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+     
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Nasi Goreng Baso"
+        android:textStyle="bold"/>
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:paddingLeft="10dp"
+        android:gravity="right"
+        android:text="Rp. 12.000,-"/>
+      </TableRow>
+      
+      
+      
+      <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Nasi Goreng Ayam"
+        android:textStyle="bold"/>
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:paddingLeft="10dp"
+        android:gravity="right"
+        android:text="Rp. 13.000,-"/>
+      </TableRow>
+      
+       <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Nasi Goreng Seafood"
+        android:textStyle="bold"/>
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:gravity="right"
+        android:text="Rp. 14.500,-"/>
+     </TableRow>
+      
+        <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Nasi Goreng Spesial"
+        android:textStyle="bold"/>
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:paddingLeft="10dp"
+        android:gravity="right"
+         android:paddingBottom="20dp"
+        android:text="Rp. 16.000,-"/>
+      </TableRow>
+      
+</TableLayout>
+
+   
+      
+    	
+   <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:gravity="center"
+        android:text="Sayur"
+        android:background="#CAC8F7"
+        android:textStyle="bold"/>
+   
+   <TableLayout 
+       android:id="@+id/tableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"  
+    android:paddingLeft="10dp"
+    android:stretchColumns="*">
+   	
+     <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+    
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Sayur Asem"
+        android:textStyle="bold"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingLeft="10dp"
+           android:gravity="right"
+          android:text="Rp. 8.000,-" />
+
+      </TableRow>
+      
+      
+      <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+     
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Sayur Lodeh"
+        android:textStyle="bold"/>
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:paddingLeft="10dp"
+        android:text="Rp. 8.000,-"/>
+     </TableRow>
+      
+      <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Sop Ayam"
+        android:textStyle="bold"/>
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:gravity="right"
+        android:text="Rp. 10.000,-"/>
+       </TableRow>
+      
+      
+       <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Sop Daging"
+        android:textStyle="bold"/>
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:gravity="right"
+        android:text="Rp. 11.000,-"/>
+      </TableRow>
+      
+        <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Sop Iga"
+        android:textStyle="bold"/>
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:gravity="right"
+         android:paddingBottom="20dp"
+        android:text="Rp. 15.000,-"/>
+      </TableRow>
+      </TableLayout>
+      
+   
+   
+   <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:gravity="center"
+        android:text="Kwetiaw/ Mie - Goreng/Kuah "
+        android:background="#CAC8F7"
+        android:textStyle="bold"/>
+          
+          
+   <TableLayout 
+       android:id="@+id/tableLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"  
+    android:padding="10dp"
+    android:stretchColumns="*">
+          <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+     
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Kwetiaw/mie Biasa "
+        android:textStyle="bold"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingLeft="10dp"
+           android:gravity="right"
+          android:text="Rp. 9.000,-" />
+      </TableRow>
+   	      
+      
+      <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+     
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Kwetiaw/mie Sosis"
+        android:textStyle="bold"/>
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+         android:paddingLeft="10dp"
+        android:text="Rp. 11.500,-"/>
+     </TableRow>
+      
+      <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+     
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Kwetiaw/mie Baso"
+        android:textStyle="bold"/>
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:paddingLeft="10dp"
+        android:gravity="right"
+        android:text="Rp. 12.000,-"/>
+      </TableRow>
+      
+      
+      
+      <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Kwetiaw/mie Ayam"
+        android:textStyle="bold"/>
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:paddingLeft="10dp"
+        android:gravity="right"
+        android:text="Rp. 13.000,-"/>
+      </TableRow>
+      
+       <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Kwetiaw/mie Seafood"
+        android:textStyle="bold"/>
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:gravity="right"
+        android:text="Rp. 16.000,-"/>
+     </TableRow>
+      
+        <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Kwetiaw/mie Spesial"
+        android:textStyle="bold"/>
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:paddingLeft="10dp"
+        android:gravity="right"
+         android:paddingBottom="20dp"
+        android:text="Rp. 20.000,-"/>
+      </TableRow>
+      
+</TableLayout>
+   
+   
+   
+   
+   
+        
+    
+</LinearLayout>
+</LinearLayout>
+    
+</ScrollView>
+</LinearLayout>
+
+</LinearLayout>

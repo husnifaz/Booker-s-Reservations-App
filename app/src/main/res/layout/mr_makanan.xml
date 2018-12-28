@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     <LinearLayout 
+       android:id="@+id/keseluruhan"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical"
+    	android:layout_weight="1">
+    	
+		<ScrollView 
+   		android:layout_width="match_parent"
+   		android:layout_height="match_parent">
+   		
+   <LinearLayout 
+       android:id="@+id/isiScrollView"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical"
+    	>
+    	
+       <LinearLayout 
+        android:id="@+id/judul"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical"
+    	android:padding="10dp"
+    	android:background="#ffffff"
+    	android:layout_weight="3">
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:padding="15dip"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        android:text="Daftar Menu Makanan"/>
+    
+    
+    <ImageView 
+          android:id="@+id/foto"
+        android:layout_width="282dp"
+        android:layout_height="295dp"
+        android:layout_gravity="center"
+        android:src="@drawable/padang1"/>
+    
+    <ImageView 
+          android:id="@+id/foto"
+        android:layout_width="282dp"
+        android:layout_marginTop="3dp"
+        android:layout_height="295dp"
+        android:layout_gravity="center"
+        android:src="@drawable/padang2"/>
+    
+    
+     
+     
+    </LinearLayout>
+    
+       
+  
+          
+
+   
+   
+   
+   
+   
+        
+    
+</LinearLayout>
+
+    
+</ScrollView>
+</LinearLayout>
+    
+
+</LinearLayout>

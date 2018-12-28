@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Booker\'s</string>
+    <string name="app_name2">\t\t\tBooker\'s</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="masuk">Sign In</string>
+
+    <string name="berandawarung">Daftar Warung Makan</string>
+
+    <string-array name="jml_meja">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+</resources>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mobile.xcode.final1">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splashscreen"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps"></activity>
+
+
+        <activity
+            android:name=".BerandaWarung"
+            android:label="@string/berandawarung"></activity>
+
+        <activity
+            android:name=".RasutMain"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity
+            android:name=".RasutReserve">
+        </activity>
+        <activity android:name=".RasutMenu"></activity>
+        <activity android:name=".RasutMakanan"></activity>
+        <activity android:name=".RasutMinuman"></activity>
+
+        <activity
+            android:name=".BuanaMain"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity android:name=".BuanaReserve"></activity>
+        <activity android:name=".BuanaMenu"></activity>
+        <activity android:name=".BuanaMakanan"></activity>
+        <activity android:name=".BuanaMinuman"></activity>
+
+        <activity
+            android:name=".MrMain"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity android:name=".MrReserve"></activity>
+        <activity android:name=".MrMenu"></activity>
+        <activity android:name=".MrMakanan"></activity>
+        <activity android:name=".MrMinuman"></activity>
+
+        <activity
+            android:name=".WmMain"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity android:name=".WmReserve"></activity>
+        <activity android:name=".WmMenu"></activity>
+        <activity android:name=".WmMakanan"></activity>
+        <activity android:name=".WmMinuman"></activity>
+
+        <activity
+            android:name=".RaitoMain"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity android:name=".RaitoReserve"></activity>
+        <activity android:name=".RaitoMenu"></activity>
+        <activity android:name=".RaitoMakanan"></activity>
+        <activity android:name=".RaitoMinuman"></activity>
+
+        <activity
+            android:name=".KumisMain"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity android:name=".KumisReserve"></activity>
+        <activity android:name=".KumisMenu"></activity>
+        <activity android:name=".KumisMakanan"></activity>
+        <activity android:name=".KumisMinuman"></activity>
+
+
+        <activity
+            android:name=".BookActivity"
+            android:label="Form Pemesanan">
+
+        </activity>
+        <activity android:name=".KirimRasut"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity android:name=".NavMasuk"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:noHistory="true"></activity>
+        <activity android:name=".Register"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+    </application>
+
+</manifest>

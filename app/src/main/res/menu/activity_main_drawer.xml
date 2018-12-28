@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_awal"
+            android:icon="@drawable/ic_beranda"
+            android:title="Beranda" />
+        <item
+            android:id="@+id/nav_warung"
+            android:icon="@drawable/ic_list_black"
+            android:title="Warung" />
+        <item
+            android:id="@+id/nav_cari"
+            android:icon="@drawable/ic_search_black"
+            android:title="Cari" />
+        <item
+            android:id="@+id/nav_masuk"
+            android:icon="@drawable/ic_person_sign"
+            android:title="Masuk" />
+        <item
+            android:id="@+id/nav_daftar"
+            android:icon="@drawable/ic_person_add_black"
+            android:title="Daftar" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_tentangkami"
+                android:icon="@drawable/ic_info_black"
+                android:title="Tentang Kami" />
+        </menu>
+    </item>
+
+</menu>
